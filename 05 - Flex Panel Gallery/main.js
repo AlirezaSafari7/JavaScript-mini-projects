@@ -6,8 +6,9 @@ function toggleOpen() {
 }
 
 function toggleActive(e) {
-    if(e.propertyName.includes('flex')) {
-        this.classList.toggle('.open-active');
+    console.log(e.propertyName);
+    if (e.propertyName.includes('flex')) {
+        this.classList.toggle('open-active');
     }
 }
 
